@@ -6,7 +6,9 @@ To get the server running locally:
 
 * Clone this repo
 * npm install to install all required dependencies
-* replace the environment variables in .env and also add your Google API Key in index.html
+* Initialize a .env file with
+* REACT_APP_GOOGLE_API_KEY='UR API KEY'
+  REACT_APP_SERVER_URL=http://localhost:3000
 * npm start to start the local server
 
 By default the local server will start on port 3000
